@@ -6,6 +6,23 @@ El programa  consiste en un servidor http Sencillo en java el cual permite hacer
 
 Utiliza una arquitectura en capas donde se tiene un cliente el cual es  un programa html con JavaScript, se comunica con el servidor fachada que procesa la solicitus y finalmente dese el httpServer se brinda la data
 
+## Requisitos
+
+- **Java 17 o superior**
+- Sistema operativo compatible con Java (Windows, Linux o macOS).
+
+---
+
+## Estructura del Proyecto
+
+```
+HttpServer/
+│── src/main/java
+      ├── Httpserver.java   # Clase servidor
+      └── FacadeServer.java  # Respuestas
+```
+
+---
 ![Arquitectura](resources/1.png)
 
 ## Implementacion cliente.html
