@@ -81,7 +81,7 @@ public class HttpServer {
         serverSocket.close();
     }
     public void invoke(){
-        
+
     }
     public String getElementbyId(String id) {
         return id;
